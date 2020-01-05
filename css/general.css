@@ -1,0 +1,211 @@
+body {
+    --main-color: #5c245f;
+    --secondary-color: #9b689e;
+    --tertiary-color: #fbe3fc;
+    --button-color-item: #f5eff5;
+    --button-color-item-hover: #cca5ce;
+    
+    --main-text-color: white;
+}
+
+
+.nav-header-link:hover {
+    color: var(--main-color)!important;
+}
+
+.form-container {
+    padding-top: 10rem!important;
+    min-width: 25rem;
+    padding-bottom: 16rem;
+}
+
+.form-header {
+    width: -webkit-fill-available;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+.form-title {
+    color: var(--main-color);
+}
+
+.form-body {
+    background-color: var(--main-text-color);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+.form-text-button {
+    color: var(--main-text-color);
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.form-text-button:hover {
+    color: var(--main-color);
+}
+
+header.form-background {
+    background-image: url("../img/background_formpage.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+header.masthead {
+    background-image: url("../img/background_landingpage.jpg");
+}
+
+.promo-header-container {
+    text-align: initial;
+    max-width: 50rem;
+}
+
+.promo-header {
+    color: var(--main-color);
+}
+
+.promo-subheader {
+    color: var(--tertiary-color);
+    margin-bottom: 12rem;
+}
+
+.logo-img {
+    width: 5rem;
+}
+
+.logo-header {
+    color: var(--main-text-color);
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    font-family: sans-serif;
+}
+
+.logo-header:hover {
+    color: var(--main-color);
+}
+
+.product-header {
+    color: var(--main-color);
+    font-size: 4rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.product-subheader {
+    color: #bab2bb;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+.product-header-container {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.item-header {
+    color: var(--main-color);
+}
+
+.item-container {
+    min-width: 15rem;
+}
+
+.item-body {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: #866f9e;
+}
+
+.item-filler {
+    flex: 1;
+}
+
+.item-button {
+    border-radius: 1.5rem;
+    background-color: var(--button-color-item);
+    color: var(--main-text-color);
+    margin-top: 1rem;
+}
+
+.item-button:hover {
+    background-color: var(--button-color-item-hover);
+    color: var(--main-color);
+}
+
+.item-button-element-2 {
+    font-size: 0.7rem;
+    font-weight: lighter;
+    color: #8972a0;
+}
+
+.item-button-price {
+    color: var(--main-color);
+}
+
+.item-button-month {
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+}
+
+.contact-body {
+    color: #674e68;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.contact-button {
+    border-radius: 1.5rem;
+    background-color: var(--secondary-color);
+    color: var(--main-text-color);
+    margin-top: 3rem;
+}
+
+.contact-button:hover {
+    background-color: var(--main-color);
+    color: var(--main-text-color);
+}
+
+.contact-button-img {
+    width: 3rem;
+}
+
+.footer-left-content {
+    color: var(--secondary-color);
+    text-align: left;
+}
+
+.footer-right-content {
+    margin-top: 6rem;
+}
+
+.footer {
+    background-image: url(../img/footer_landingpage.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: top;
+    background-size: cover;
+    height: 20rem;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-filler {
+    flex-grow: 1;
+}
+
+.footer-logo-header {
+    color: var(--main-text-color);
+    font-size: 2rem;
+    font-weight: bold;
+}

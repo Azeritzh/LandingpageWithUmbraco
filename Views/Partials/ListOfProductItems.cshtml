@@ -1,0 +1,36 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage
+
+
+@{
+	var selection = Umbraco.ContentAtRoot().FirstOrDefault()
+    .ChildrenOfType("productItem")
+    .Where(x => x.IsVisible());
+}
+
+<div class="card-deck mb-3 text-center">
+	@foreach (var item in selection)
+	{
+		<div class="card mb-4 box-shadow item-container">
+          <div class="card-header">
+            <h4 class="my-0 font-weight-bold item-header">@item.Value("productHeader")</h4>
+          </div>
+          <div class="card-body item-body">
+              <div>
+                  @item.Value("productBulletPoints")
+              </div>
+              <div class="item-filler"></div>
+            <button type="button" class="btn item-button">
+                <div>
+                    <label class="item-button-price">@item.Value("productPrice")</label>
+                    <label class="item-button-month">/måned</label>
+                </div>
+                <div class="item-button-element-2">
+                    <label>Eksl. moms</label>
+                </div>
+                
+                
+            </button>
+          </div>
+        </div>
+	}
+</div>
